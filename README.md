@@ -25,7 +25,7 @@ Sample test result of today (2017-04-25):
 <testng-results skipped="0" failed="2" total="23" passed="21">
 ```
 
-todo:
+## Todo
 
 - Figure out how to get results and process them instead of using local file. Nice option to send results to mail or some other medium. For example publish results to gost.geodan.nl
 
