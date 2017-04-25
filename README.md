@@ -7,17 +7,13 @@ Sample:
 ```
 $ git clone https://github.com/gost/ets-sta10-runner.git
 $ cd ets-sta10-runner
-$ sh sta_test_1_runner.sh
+$ sh sta_test_runner.sh
 ```
 
 Test results are written in a XML file in profile, for example: /Users/bert/testng/bdc56445-691b-4c00-8e42-47bd6eb14549/testng-results.xml
 
 todo:
-- Figure out how to run test and get results
-
-- sta_test_2_runner.sh
-
-- sta_test_3_runner.sh
+- Figure out how to get results and process them instead of using file
 
 ## Test Suite
 
