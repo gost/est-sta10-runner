@@ -4,7 +4,7 @@ Scripts for running OGC ETS-STA10 tests
 
 Sample:
 ```
-sh sta_test_1_runner.sh
+$ sh sta_test_1_runner.sh
 ```
 
 todo:
