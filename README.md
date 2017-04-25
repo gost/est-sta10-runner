@@ -8,6 +8,7 @@ $ sh sta_test_1_runner.sh
 ```
 
 todo:
+- Figure out how to run test and get results
 
 - sta_test_2_runner.sh
 
