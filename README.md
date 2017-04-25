@@ -1,4 +1,4 @@
-# est-sta10-runner
+# ets-sta10-runner
 
 Scripts for running OGC ETS-STA10 tests
 
