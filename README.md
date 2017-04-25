@@ -31,6 +31,8 @@ todo:
 
 - Run script when new Docker images are available (so after each commit)
 
+- Use Docker image https://store.docker.com/community/images/geodan/ets-sta10-1.0 so there is no Java dependency
+
 ## Test Suite
 
 In directory https://github.com/gost/ets-sta10-runner/tree/master/testsuite there are builds of the OGC testsuite.
