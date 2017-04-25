@@ -48,6 +48,7 @@ From:
 ```
 
 To: 
+```
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
         <configuration>
@@ -61,5 +62,6 @@ To:
           </archive>
         </configuration>
       </plugin>
+ ```
  
  See also https://github.com/opengeospatial/ets-sta10/pull/31  
