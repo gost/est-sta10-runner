@@ -12,8 +12,13 @@ $ sh sta_test_runner.sh
 
 Test results are written in a XML file in profile, for example: /Users/bert/testng/bdc56445-691b-4c00-8e42-47bd6eb14549/testng-results.xml
 
+Sample test result of today (2017-04-25):
+```
+<testng-results skipped="0" failed="2" total="23" passed="21">
+```
+
 todo:
-- Figure out how to get results and process them instead of using file
+- Figure out how to get results and process them instead of using local file. Nice option to send results to mail or some other medium.
 
 ## Test Suite
 
