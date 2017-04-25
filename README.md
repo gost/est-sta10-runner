@@ -10,6 +10,8 @@ $ cd ets-sta10-runner
 $ sh sta_test_1_runner.sh
 ```
 
+Test results are written in a XML file in profile, for example: /Users/bert/testng/bdc56445-691b-4c00-8e42-47bd6eb14549/testng-results.xml
+
 todo:
 - Figure out how to run test and get results
 
