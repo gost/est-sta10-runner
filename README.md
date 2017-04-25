@@ -10,6 +10,14 @@ $ cd ets-sta10-runner
 $ sh sta_test_runner.sh
 ```
 
+The script sta_test_runner.sh does the following:
+
+- pull latest images from Docker
+
+- runs the new images (using docker-compose)
+
+- runs the OGC testsuite ETS-STA10
+
 Test results are written in a XML file in profile, for example: /Users/bert/testng/bdc56445-691b-4c00-8e42-47bd6eb14549/testng-results.xml
 
 Sample test result of today (2017-04-25):
