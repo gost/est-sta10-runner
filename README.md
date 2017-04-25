@@ -18,7 +18,10 @@ Sample test result of today (2017-04-25):
 ```
 
 todo:
+
 - Figure out how to get results and process them instead of using local file. Nice option to send results to mail or some other medium.
+
+- Run script when new Docker images are available (so after each commit)
 
 ## Test Suite
 
