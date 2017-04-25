@@ -56,8 +56,10 @@ $ cd target
 $ java -jar ets-sta10-1.0-aio.jar ../src/main/config/test-run-props.xml
 ```
 
-Be aware to change in the pom.xml after cloning:
+Be aware to change the pom.xml after cloning:
+
 From:
+
 ```
     <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
@@ -65,6 +67,7 @@ From:
 ```
 
 To: 
+
 ```
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
