@@ -16,9 +16,11 @@ The script sta_test_runner.sh does the following:
 
 - runs the new images (using docker-compose)
 
+- fills database with test prerequisite items
+
 - runs the OGC testsuite ETS-STA10 version 1.0
 
-Test results are written in a XML file in profile, for example: /Users/bert/testng/bdc56445-691b-4c00-8e42-47bd6eb14549/testng-results.xml
+- sends results to gost.geodan.nl, datastream 166
 
 Sample test result of today (2017-04-25):
 ```
@@ -26,8 +28,6 @@ Sample test result of today (2017-04-25):
 ```
 
 ## Todo
-
-- Figure out how to get results and process them instead of using local file. Nice option to send results to mail or some other medium. For example publish results to gost.geodan.nl
 
 - Run script when new Docker images are available (so after each commit)
 
