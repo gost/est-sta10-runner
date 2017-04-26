@@ -20,7 +20,7 @@ The script sta_test_runner.sh does the following:
 
 - runs the OGC testsuite ETS-STA10 version 1.0
 
-- sends results to gost.geodan.nl, datastream 166
+- sends results to gost.geodan.nl, datastream 166 http://gost.geodan.nl/v1.0/Datastreams(166)/Observations
 
 Sample test result of today (2017-04-25):
 ```
