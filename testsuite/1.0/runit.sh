@@ -4,14 +4,15 @@ file=${sta_test_result##*: }
 echo sta_test_runner output: $file
 cp $file res.xml
 result=$(sed -n '2p' < res.xml)
+# remove the first character...
 result=${result#"<"}
+# end the last too..
 result=${result%">"}
-result=tr '"' "'"
-echo result
-
-result="${result//\"}"
-result="${result// /,}" 
-
+# remove the spaces for comma
+result=${result// /,}
+# result="${result//\"}"
+# result="${result//"/'}" 
+# result="${result// /,}" 
 echo result: $result
 now=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
