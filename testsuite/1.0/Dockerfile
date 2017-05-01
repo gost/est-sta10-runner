@@ -1,5 +1,11 @@
-FROM anapsix/alpine-java
+FROM openjdk
 MAINTAINER Geodan 
-COPY ets-sta10-1.0-aio.jar /home/ets_sta10-1.0-aio.jar
-COPY test-run-props.xml /home/test-run-props.xml
-CMD ["java","-jar","/home/ets_sta10-1.0-aio.jar", "/home/test-run-props.xml"]
+RUN apt-get update
+RUN apt-get install -y nano
+COPY ets-sta10-1.0-aio.jar /home/testsuite/1.0/ets-sta10-1.0-aio.jar
+COPY test-run-props.xml /home/testsuite/1.0/test-run-props.xml
+COPY runit.sh /home
+WORKDIR /home
+CMD ["chmod","+x","/home/testsuite/1.0/ets-sta10-1.0-aio.jar"]
+CMD ["chmod","+x","/home/runit.sh"]
+CMD ["sh","runit.sh"]
