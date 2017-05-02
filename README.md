@@ -31,8 +31,6 @@ Sample test result of today (2017-04-25):
 
 - Run script when new Docker images are available (so after each commit)
 
-- Use Docker image https://store.docker.com/community/images/geodan/ets-sta10-1.0 so there is no Java dependency
-
 ## Test Suite
 
 In directory https://github.com/gost/ets-sta10-runner/tree/master/testsuite there are builds of the OGC testsuite.
@@ -46,7 +44,7 @@ The file test-run-props.xml contains configuration of the test
 
 ## Docker
 
-For Docker there is https://store.docker.com/community/images/geodan/ets-sta10-1.0 for running the test. This Docker image is not used (yet).
+For Docker there is https://store.docker.com/community/images/geodan/ets-sta10-1.0 for running the test.
 
 Building:
 
@@ -58,6 +56,12 @@ Running:
 
 ```
 $ docker run --network etssta10runner_default geodan/ets-sta10-1.0
+```
+
+Development:
+
+```
+$ docker run -it --network etssta10runner_default geodan/ets-sta10-1.0 /bin/bash
 ```
 
 ## Building Test Suite
