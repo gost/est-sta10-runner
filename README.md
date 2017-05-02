@@ -11,7 +11,7 @@ $ sh sta_test_runner.sh
 
 The script sta_test_runner.sh does the following:
 
-- pull latest GOST images from Docker
+- pull latest GOST images and testsuite from Docker
 
 - runs the new images (using docker-compose)
 
