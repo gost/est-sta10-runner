@@ -5,8 +5,7 @@ Scripts for running OGC ETS-STA10 tests
 Sample:
 
 ```
-$ git clone https://github.com/gost/ets-sta10-runner.git
-$ cd ets-sta10-runner
+$ wget https://raw.githubusercontent.com/gost/ets-sta10-runner/master/sta_test_runner.sh
 $ sh sta_test_runner.sh
 ```
 
