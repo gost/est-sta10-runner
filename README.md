@@ -54,6 +54,12 @@ Building:
 $ docker build -t geodan/ets-sta10-1.0 .
 ```
 
+Running: 
+
+```
+$ docker run geodan/ets-sta10-1.0
+```
+
 ## Building Test Suite
 
 ```
