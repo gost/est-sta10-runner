@@ -48,6 +48,18 @@ The file test-run-props.xml contains configuration of the test
 
 For Docker there is https://store.docker.com/community/images/geodan/ets-sta10-1.0 for running the test. This Docker image is not used (yet).
 
+Building:
+
+```
+$ docker build -t geodan/ets-sta10-1.0 .
+```
+
+Running: 
+
+```
+$ docker run --network etssta10runner_default geodan/ets-sta10-1.0
+```
+
 ## Building Test Suite
 
 ```
