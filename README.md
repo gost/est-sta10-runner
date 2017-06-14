@@ -5,8 +5,8 @@ Scripts for running OGC ETS-STA10 tests
 Sample:
 
 ```
-$ wget https://raw.githubusercontent.com/gost/ets-sta10-runner/master/sta_test_runner.sh
-$ wget http://raw.githubusercontent.com/gost/ets-sta10-runner/master/docker-compose.yml
+$ git clone https://github.com/gost/ets-sta10-runner.git
+$ cd ets-sta10-runner.
 $ sh sta_test_runner.sh
 ```
 
