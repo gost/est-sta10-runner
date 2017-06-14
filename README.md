@@ -6,6 +6,7 @@ Sample:
 
 ```
 $ wget https://raw.githubusercontent.com/gost/ets-sta10-runner/master/sta_test_runner.sh
+$ wget http://raw.githubusercontent.com/gost/ets-sta10-runner/master/docker-compose.yml
 $ sh sta_test_runner.sh
 ```
 
