@@ -15,5 +15,5 @@ services:
         depends_on:
             - gost-db
         environment:
-            gost_server_external_uri: http://gost:8080
-            gost_db_host: gost-db
+            GOST_SERVER_EXTERNAL_URI: http://gost:8080
+            GOST_DB_HOST: gost-db
