@@ -10,6 +10,6 @@ result=$( echo "$result" | tr ' ' ',')
 result=$( echo "$result" | tr -d '/"')
 now=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 echo "res" $result
-curl -H "Content-Type: application/json" -X POST -d '{"phenomenonTime": "'$now'","result" : "'$result'","Datastream":{"@iot.id":"166"}}' http://gost.geodan.nl/v1.0/Observations
+curl -H "Content-Type: application/json" -X POST -d '{"phenomenonTime": "'$now'","result" : "'$result'","Datastream":{"@iot.id":"166"}}' https://gost.geodan.nl/v1.0/Observations
 
 
